@@ -4,10 +4,10 @@
 // 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
 // 2 -> " -2, -1, 0, 1, 2"
 
-Console.WriteLine("Ввудите целое положительное число");
+Console.WriteLine("Введите целое положительное число");
 int number = Convert.ToInt32(Console.ReadLine());
 int count = -number;
-while (count <= number) ;
+while(count <= number)
 {
     Console.Write($"{count} ");
     count++;
