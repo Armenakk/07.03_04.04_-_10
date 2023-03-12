@@ -18,7 +18,7 @@ if (lastDigit == 0)
 }
 else
 {
-    Console.WriteLine("Число является не четным");
+    // Console.WriteLine("Число является не четным");
 }
 
 
